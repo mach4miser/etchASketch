@@ -1,0 +1,39 @@
+* { 
+    margin: 0;
+    padding: 0;
+  }
+  
+#main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5%;
+    padding-left: 5%;
+  }
+  
+#reset {
+    padding: 1rem;
+    text-transform: uppercase;
+    position: absolute;
+    left: 41%;
+    top: -20%;
+  }
+  
+#container {
+    display: grid;
+    border: solid;
+    grid-template-columns: repeat(4, 100px);
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    left: 40%;
+    top: 25%;
+  }
+  
+.square {
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+  }
+  
+  
